@@ -1,0 +1,179 @@
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(180deg, rgb(69, 143, 252) 0%, rgb(255, 255, 255) 0%, rgb(58, 190, 244) 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  width: 900px;
+  margin: 120px auto;
+}
+.container__header {
+  width: 100%;
+  height: 70px;
+  background-color: cornflowerblue;
+  padding: 20px 14px 20px 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container__header__x img {
+  opacity: 0.6;
+  width: 36px;
+}
+.container__header__x img:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.container__header__x img:active {
+  opacity: 0.7;
+}
+.container__header__list__name {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+.container__chat {
+  width: 100%;
+  height: 710px;
+  background-color: white;
+  padding: 16px 20px 16px 20px;
+}
+.container__chat__day {
+  width: 100%;
+  padding: 20px 0 40px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.container__chat__day p {
+  color: rgba(190, 190, 190, 0.658);
+  font-family: sans-serif;
+  font-size: 21px;
+  font-weight: 600;
+}
+.container__chat__day__line {
+  width: 350px;
+  height: 2px;
+  background-color: rgba(190, 190, 190, 0.397);
+  margin: 0 auto;
+}
+.container__chat__data p {
+  font-family: sans-serif;
+  color: rgb(141, 137, 137);
+}
+.container__chat__text p {
+  font-family: sans-serif;
+  font-size: 23px;
+  width: 400px;
+  line-height: 34px;
+  background-color: rgba(119, 202, 241, 0.151);
+  padding: 10px 10px 10px 16px;
+  border-radius: 0 14px 14px 14px;
+  -webkit-border-radius: 0 14px 14px 14px;
+  -moz-border-radius: 0 14px 14px 14px;
+  -ms-border-radius: 0 14px 14px 14px;
+  -o-border-radius: 0 14px 14px 14px;
+}
+.container__chat__data-grey {
+  font-family: sans-serif;
+  color: rgb(141, 137, 137);
+  float: right;
+}
+.container__chat__text-gray {
+  background-color: rgba(158, 158, 158, 0.151);
+  width: 600px;
+  padding: 10px 10px 10px 16px;
+  border-radius: 14px 0 14px 14px;
+  -webkit-border-radius: 14px 0 14px 14px;
+  -moz-border-radius: 14px 0 14px 14px;
+  -ms-border-radius: 14px 0 14px 14px;
+  -o-border-radius: 14px 0 14px 14px;
+  position: relative;
+  right: -250px;
+  line-height: 34px;
+}
+.container__chat__text-gray p {
+  font-family: sans-serif;
+  font-size: 23px;
+  width: 400px;
+}
+.container__chat__data-butd p {
+  font-family: sans-serif;
+  color: rgb(141, 137, 137);
+}
+.container__chat__text__but p {
+  font-family: sans-serif;
+  font-size: 23px;
+  width: 140px;
+  background-color: rgba(85, 131, 158, 0.151);
+  padding: 10px 10px 10px 16px;
+  border-radius: 0 14px 14px 14px;
+  -webkit-border-radius: 0 14px 14px 14px;
+  -moz-border-radius: 0 14px 14px 14px;
+  -ms-border-radius: 0 14px 14px 14px;
+  -o-border-radius: 0 14px 14px 14px;
+  line-height: 34px;
+}
+.container__chat__data-red {
+  font-family: sans-serif;
+  color: rgb(141, 137, 137);
+  float: right;
+}
+.container__chat__text-red {
+  font-family: sans-serif;
+  font-size: 23px;
+  width: 400px;
+  line-height: 34px;
+  background-color: rgba(241, 119, 119, 0.329);
+  padding: 10px 10px 10px 16px;
+  border-radius: 14px 0 14px 14px;
+  -webkit-border-radius: 14px 0 14px 14px;
+  -moz-border-radius: 14px 0 14px 14px;
+  -ms-border-radius: 14px 0 14px 14px;
+  -o-border-radius: 14px 0 14px 14px;
+  position: relative;
+  right: -450px;
+  line-height: 34px;
+}
+.container__chat__hr {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(169, 169, 169, 0.527);
+}
+.container__chat__send {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container__chat__send input {
+  width: 600px;
+  height: 60px;
+  padding-left: 16px;
+  font-size: 26px;
+  outline: none;
+  border: none;
+}
+.container__chat__send p {
+  color: rgba(30, 143, 255, 0.863);
+  font-family: sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+}
+.container__chat__send p:hover {
+  color: rgba(99, 173, 247, 0.863);
+  cursor: pointer;
+}
+.container__chat__send p:active {
+  color: rgba(47, 91, 134, 0.863);
+}/*# sourceMappingURL=chatmark.css.map */
